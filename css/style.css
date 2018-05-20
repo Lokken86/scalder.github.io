@@ -21,12 +21,19 @@ body{
 	
 	height:200px;
 	width:95%;
-
 	margin:auto;
   border: 1px solid #3F0235;
 border-color:black;
 border-color:rgba(229,221,221,1.00);
 background-color:ghostwhite}
+
+.cont-one{
+	display: block;
+}
+
+.cont-two, .cont-three, .cont-four, .cont-five, .cont-six, .cont-seven, .cont-eight, .cont-nine{
+	display: none;
+}
 
 .container-child-left{
 	
@@ -66,16 +73,29 @@ background-color:ghostwhite}
 	
 	color:white;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	margin:10px 10px 0 0;
-	float:right;
-	font-size: 22px;}
+	margin:0;
+	line-height: 48px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.container-baby-one h2, .container-baby-two h2 {
+	
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin:0;
+	line-height: 48px;
+	font-size: 15px;
+	text-align: center;}
+
 
 .container-baby-three p {
 
 color:white;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 font-size: 10px;
-margin: 4px 0 0 5px;}
+margin: 4px 0 0 5px;
+text-align: center;}
 
 
 
@@ -83,10 +103,27 @@ margin: 4px 0 0 5px;}
 	height:50px;
 	width:50px;
 		float:left;
-		background-image:url(../../../Web%20Context/image-gallery/img/bbc-pic.png);
+		background-image:url(file:///F|/college/html_bbc/img/bbc-pic.png);
 		margin:0 0 0 2%;
 		background-size:contain;
 }
+
+.logo2 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc2-small.PNG);}
+.logo3 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc3-small.PNG);}
+.logo4 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc4-small.PNG);}
+.logo5 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc5-small.PNG);}
+.logo6 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc6-small.PNG);}
+.logo7 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc7-small.PNG);}
+.logo8 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc8-small.PNG);}
+.logo9 {
+background-image:url(file:///F|/college/html_bbc/img/logo-bbc9-small.PNG);}
 
 .container-baby-two{
 	height:48px;
@@ -119,11 +156,19 @@ border-color:darkslategrey}
 	width:100%;
 	margin:0 0 0 0;}
 
+.container-baby-one p{
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	margin: 0;
+	line-height: 48px;
+text-align: center;}
+
 .icon-bbc1{
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc1.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc1.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -131,12 +176,24 @@ border-color:darkslategrey}
 	border-style:ridge;
 	box-sizing: border-box;
 	}
-
+.class2{
+	
+height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc2.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;
+}
 .icon-bbc2{
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc2.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc2.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -149,7 +206,7 @@ box-sizing: border-box;}
 	height:100%;
 	width:30%;
 	margin:0 0 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc3.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc3.PNG);
 	background-position: center;
 	background-size: cover;
 	float:left;
@@ -167,7 +224,7 @@ padding:5% 0 0 0;}
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc4.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc4.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -180,7 +237,7 @@ padding:5% 0 0 0;}
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc5.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc5.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -193,7 +250,7 @@ border-color:aliceblue;
 	height:100%;
 	width:30%;
 	margin:0 0 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc6.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc6.PNG);
 	background-position: center;
 	background-size: cover;
 	float:left;
@@ -210,7 +267,7 @@ padding:5% 0 0 0;}
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc7.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc7.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -223,7 +280,7 @@ padding:5% 0 0 0;}
 	height:100%;
 	width:30%;
 	margin:0 5% 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc8.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc8.PNG);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -236,7 +293,7 @@ padding:5% 0 0 0;}
 	height:100%;
 	width:30%;
 	margin:0 0 0 0;
-	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc9.PNG);
+	background-image:url(file:///F|/college/html_bbc/img/logo-bbc9.PNG);
 	background-position: center;
 	background-size: cover;
 	float:left;
